@@ -1,0 +1,198 @@
+body{
+    background-color: rgb(222, 226, 231);  
+}
+
+.navbarListo{
+    background-color: #001F3F;   
+}
+
+.logoListo{
+    color: rgb(226, 240, 34);
+}
+
+.iconsNavbar li {
+    margin-left: 5px;
+}
+
+.accountNavbar li{
+    padding: 2px;
+    padding-right: 2px;
+    padding-left: 5px;
+    margin-left: 5px;
+    color: rgb(129, 143, 160); 
+    font-weight: bold;
+}
+
+.addingBoards{
+    margin-top: 1%;
+}
+
+
+.boards{
+    margin-top: 1px;   
+}
+
+.boardStyleCollect{
+    background: #001F3F;
+    border: 1px solid white;
+    box-shadow: 0px 1px grey;
+    
+}
+
+.boardStyleSoloBackground{
+    margin-top: 1%;
+}
+
+.AddMessage{
+    width: 90%;
+    
+}
+
+#AddMessageButton{
+    margin-left: 1%;
+    width: 60%;
+    color: white;
+    background: #001F3F;
+}
+
+.AddBoard{
+    margin-left: 10%;
+    width: 90%;
+}
+
+#AddBoardButton{
+    margin-left: 1%;
+    width: 60%;
+    color: white;
+    background: #001F3F;
+}
+
+.bodyStyle{
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 40px;
+}
+
+.boardTitle{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    float: left;
+}
+
+/* .iconBoardTitle{
+    color: rgb(226, 240, 34);
+} */
+
+.iconBoardTitleButton{
+    color: rgb(226, 240, 34);
+    float: right;
+    background-color: #001F3F;
+    border: none;
+}
+
+.buttonsBoard{
+    background-color: #001F3F;
+    padding: 4%;
+}
+
+.buttonsBoardSolo{
+    width: 100%;
+    margin-top: 4%;
+    border: none;
+    background-color: #001F3F;
+    color: white    ;
+    font-weight: bold;
+}
+
+.buttonsBoardSolo:hover{
+    background-color: rgb(226, 240, 34);
+    color: #001F3F;
+}
+
+
+.list-messages li{
+    background-color: rgb(228, 233, 240);
+    color: #001F3F;
+    font-size: 13px;
+    padding: 7px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0.5px grey;
+    font-weight: bold;
+    overflow-x: auto;
+    z-index: 10;
+}
+
+.list-messages li:hover{
+    background-color: rgb(212, 224, 240);
+}
+
+.deleteButton{
+    float: right;
+    padding: 1%;
+    color: white;
+    background-color: rgb(33, 115, 209) ;
+}
+
+.editButton{
+    float: right;
+    padding: 1%;
+    color: white;
+    margin-right: 1%;
+    background-color: rgb(33, 115, 209) ;
+}
+
+.msgDrag{
+    background-color: rgb(228, 233, 240);
+    color: #001F3F;
+    font-size: 13px;
+    padding: 7px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0.5px grey;
+    font-weight: bold;
+    overflow-x: auto;
+    z-index: 10;
+    list-style: none;
+}
+
+/* #dialog{
+    left: 100px;
+} */
+
+/* code for Home Page aka home.html */
+#bodyHome{
+    background: #001F3F;
+}
+
+.home-main{
+    
+    color:#fff;
+    padding: 13%;
+    text-align: center;
+}
+
+.home-main button{
+    background: #fff;
+    color: #001F3F;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 90%;
+    width: 16%;
+    height: 60px;
+    top: 4%;
+    margin-top: 3%;
+}
+.home-main button:hover{
+    transition: 1s ease;
+    color:rgb(226, 240, 34);
+    background-color: #001F3F;
+    /* width: 28%; */
+}
+
+.loginForm{
+    width:30%; 
+    margin:5%  auto;
+    text-align:center
+}
